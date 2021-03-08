@@ -1,0 +1,40 @@
+@import 'header';
+@import '_content';
+@import '_footer';
+@import '_detail';
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 1.5;
+	color: #5e5a54;
+	font-size: 16px;
+	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
+	a:hover {
+		color: #5fbd74;
+		text-decoration: none;
+	}
+	a {
+		color: #5e5a54;
+		text-decoration: none;
+	}
+}
+// padding margin
+.pTop {
+	padding-top: 5rem;
+}
+.mTop {
+	margin-top: 4rem;
+}
+@media (min-width: 1420px) {
+	.topbar .container,
+	.topheader .container,
+	.content .container {
+		max-width: 1420px;
+	}
+}

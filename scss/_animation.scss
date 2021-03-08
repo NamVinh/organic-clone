@@ -1,0 +1,61 @@
+// animation
+%animation {
+	transform: translateY(150px);
+	animation: moveVertical 2s ease forwards;
+}
+.animation {
+	@extend %animation;
+}
+.animationYreverse {
+	@extend %animation;
+	transform: translateY(-150px);
+}
+.animationScale {
+	transform: scale(0);
+	animation: scaleItem 2s ease forwards;
+}
+.animationX {
+	transform: translateX(150px);
+	animation: moveHorizontal 2s ease forwards;
+}
+.animationFloating {
+	animation: floating 3s ease infinite;
+}
+@keyframes moveVertical {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes moveHorizontal {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes scaleItem {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+@keyframes floating {
+	0% {
+		-webkit-transform: translate(0, 0px);
+	}
+	65% {
+		-webkit-transform: translate(0, 15px);
+	}
+	100% {
+		-webkit-transform: translate(0, 0px);
+	}
+}

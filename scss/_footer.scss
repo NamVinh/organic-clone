@@ -1,0 +1,146 @@
+footer {
+	a {
+		color: #ababab !important;
+	}
+	padding-top: 50px;
+	padding-bottom: 70px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 15px;
+	background-color: #444444;
+	color: #ababab;
+	.footer-c1,
+	.footer-c2,
+	.footer-c3,
+	.footer-c4 {
+		margin-bottom: 30px;
+	}
+	.footer-c1,
+	.footer-c4 {
+		img {
+			display: block;
+			margin-bottom: 20px;
+		}
+		&-text {
+			max-width: 370px;
+			line-height: 1.6;
+		}
+		&-social {
+			margin-top: 20px;
+			a {
+				margin-right: 20px;
+				font-size: 16px;
+			}
+		}
+	}
+	.footer-c2,
+	.footer-c3,
+	.footer-c4 {
+		&-title {
+			margin-bottom: 30px;
+			padding-bottom: 15px;
+			border-bottom: 1px solid #545454;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 16px;
+			letter-spacing: 0.05em;
+			font-weight: 600;
+			line-height: 1.5;
+		}
+		&-menu {
+			a {
+				transition: all 0.5s;
+				position: relative;
+			}
+			a:hover {
+				color: #5fbd74 !important;
+				padding-left: 20px !important;
+			}
+			a:hover::before {
+				position: absolute;
+				content: '\f2d1';
+				font-family: 'Font Awesome 5 Free';
+				left: 0;
+				top: -5px;
+				color: inherit;
+			}
+		}
+	}
+	.footer-c4 {
+		&-form {
+			margin-top: 20px;
+			position: relative;
+			display: block;
+			width: 100%;
+			input {
+				height: 40px;
+				line-height: 40px;
+				border: none;
+				float: left;
+				font-size: 15px;
+				outline: none;
+			}
+			input[type='email'] {
+				padding: 0 20px;
+				width: 100%;
+				border-radius: 3px;
+			}
+			input[type='submit'] {
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 50px;
+				text-align: center;
+				padding: 0;
+				box-shadow: none;
+				text-shadow: none;
+				color: #fff;
+				font-size: 0;
+				background-color: #5fbd74;
+				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyQTI2QTFFOTUyRDcxMUU2QTU1Njg4MjI1QjE3QUY5MCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyQTI2QTFFQTUyRDcxMUU2QTU1Njg4MjI1QjE3QUY5MCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjJBMjZBMUU3NTJENzExRTZBNTU2ODgyMjVCMTdBRjkwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjJBMjZBMUU4NTJENzExRTZBNTU2ODgyMjVCMTdBRjkwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Ikd+NAAAAQhJREFUeNrsl+ENgjAQhcEwACOUDdxA3IQNdAPiBLpBXcEJdANGwA1kg3o119ggJv64q4G8l7yEtj8uH68tR+6cy5agVbYQAQQgAAEIQAACEIAAZFLruYPUZCsFkv+hjW/IbTTeku9zSsQD9JzCwL5JQLzkE1F2Q+7dW5btZaTqFEpvvyTvOAUTzZ+jdOTSUEikJLfkh/uU5bWgWrK2JMQ3AK8jb7GgTnoLa5yHbgTRjCDCnGhtreu35jNy4XNwjdb8uBKvqHxjmYnttteoleKD2Ec318BpDHPstQ7R80kDImWLElKpRL8dkYosjXwqGy2I1E2jWQoI/hABAhCAAAQgAAHIj3oKMAAWXz+lqYpAnQAAAABJRU5ErkJggg==);
+				border-radius: 0 3px 3px 0;
+			}
+			::placeholder {
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+					sans-serif;
+			}
+		}
+	}
+}
+
+.copyright {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #333333;
+	color: #696969;
+	display: block;
+	width: 100%;
+	position: relative;
+	&_payment_img {
+		text-align: right;
+	}
+	.backtotop {
+		width: 127px;
+		height: 37px;
+		top: -35px;
+		left: 50%;
+		position: absolute;
+		cursor: pointer;
+		transform: translateX(-50%);
+	}
+	.arrow {
+		font-size: 30px;
+		left: 54px;
+		top: 20px;
+		position: absolute;
+		color: #5fbd74;
+		z-index: 998;
+		line-height: 1;
+		transition: all 0.5s;
+	}
+	.arrow:hover {
+		top: 10px;
+	}
+}
